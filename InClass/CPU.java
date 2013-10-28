@@ -60,8 +60,8 @@ public class CPU {
 		switch(opcode) {
 			case 0xC: register[a] = ram[(imm & 0xff)]; break; // LOAD Ra, mmm       Ra = RAM[mmm]
 			case 0xD: register[a] = ram[register[a]]; break;  // LOAD Ra            Ra = RAM[Ra]
-			case 0xE: ram[(imm & 0xff)] = register[a];        // STOR Ra, mmm       RAM[mmm] = Ra
-			case 0xF: ram[register[a]] = register[a];         // STOR Ra            RAM[Ra] = Ra
+			case 0xE: ram[(imm & 0xff)] = register[a]; break; // STOR Ra, mmm       RAM[mmm] = Ra
+			case 0xF: ram[register[a]] = register[a]; break;  // STOR Ra            RAM[Ra] = Ra
 		}
 	}
 //	Fetch the next instruction for the CPU to decode and execute from RAM
