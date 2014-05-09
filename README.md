@@ -3,6 +3,10 @@
 Go into the Labs folder and look at Lab0.md to begin.
 If you see this in your own private repository, you are almost done with Lab 0!
 
+## Do this
+
+    curl https://raw.githubusercontent.com/lawrancej/COMP278/master/starterupper.sh | sh
+
 ## Agenda
 
 * **September 3** Introduce ourselves, [read the syllabus](https://github.com/lawrancej/COMP278/blob/master/SyllabusCOMP278Lawrance.docx).
