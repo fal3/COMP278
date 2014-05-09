@@ -3,7 +3,7 @@
 # The instructor's Github username
 GITHUB_INSTRUCTOR=lawrancej
 # The repository to clone as upstream (NO SPACES)
-REPO=COMP603-2014
+REPO=COMP278
 
 # Utilities
 # ---------------------------------------------------------------------
